@@ -2,13 +2,15 @@ import { View, StyleSheet, Text, ImageBackground } from "react-native";
 import { LinearGradient } from 'expo-linear-gradient';
 import Btn01 from "../components/btn01";
 import Btn02 from "../components/btn02";
+import Btn03 from "../components/btn03";
+import Btn04 from "../components/btn04";
+import Btn05 from "../components/btn05";
+import Btn06 from "../components/btn06";
+import Btn07 from "../components/btn07";
 import Fontisto from "react-native-vector-icons/Fontisto"
-import FontAwesome from "react-native-vector-icons/FontAwesome"
 import Foundation from "react-native-vector-icons/Foundation"
 import EvilIcons from "react-native-vector-icons/EvilIcons"
 import MaterialIcons from "react-native-vector-icons/MaterialIcons"
-import FontAwesome6 from "react-native-vector-icons/FontAwesome6"
-import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons"
 
 const Home = () => {
   return (
@@ -49,13 +51,13 @@ const Home = () => {
                         <View style={styles.trabalho}>
                             <MaterialIcons name="work" size={25} color="white"/>
                             <Text style={styles.texto01} >
-                                Programador
+                                Tiktoker
                             </Text>
                         </View>
                         <View style={styles.distancia}>
                             <EvilIcons name="location" size={25} color="white" />
                             <Text style={styles.texto01} >
-                                2 miles away
+                                A 2 passos do paraíso!
                             </Text>
                         </View>
                     </View>
@@ -69,21 +71,11 @@ const Home = () => {
         </ImageBackground>
       </View>
       <View style={styles.footer}>
-        <View style={styles.quad1}>
-            <FontAwesome name="undo" size={35} color="yellow" />
-        </View>
-        <View style={styles.quad2}>
-            <FontAwesome6 name="xmark" size={55} color="red" />
-        </View>
-        <View style={styles.quad1}>
-            <FontAwesome name="star" size={35} color="blue" />
-        </View>
-        <View style={styles.quad2}>
-            <FontAwesome name="heart" size={48} color="green" />
-        </View>
-        <View style={styles.quad1}>
-            <MaterialCommunityIcons name="lightning-bolt" size={35} color="purple" />
-        </View>
+        <Btn03 />
+        <Btn04 />
+        <Btn05 />
+        <Btn06 />
+        <Btn07 />
       </View>
     </View>
   );
@@ -232,24 +224,6 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center"
-  },
-  quad1: {
-    height: "48%",
-    width: "15%",
-    justifyContent: "center",
-    alignItems: "center",
-    borderRadius: 100,
-    backgroundColor: "white",
-    elevation: 8,
-  },
-  quad2: {
-    height: "68%",
-    width: "22%",
-    justifyContent: "center",
-    alignItems: "center",
-    borderRadius: 100,
-    backgroundColor: "white",
-    elevation: 8,
   },
   texto01: {
     color: "white",
