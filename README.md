@@ -1,18 +1,18 @@
 ## Trabalho Individual React Native
 
-### Sobre o Projeto
+### Sobre o Projeto:
 
 Página clonada do Tinder.
 
-### Imagem utilizada como referência
+### Imagem utilizada como referência:
 
 <img src="https://github.com/CesarGuerraPeixe/p1-cesar-react-native/assets/164147010/9fb34ed0-1b9a-46a1-a56a-c6eaf74caa34" alt="Imagem de referência" width="300">
 
-### Imagem do projeto pronto
+### Imagem do projeto pronto:
 
 <img src="https://github.com/CesarGuerraPeixe/p1-cesar-react-native/assets/164147010/600e8104-91a9-4064-92d4-9c22c078caf9" alt="Imagem do projeto pronto" width="300">
 
-### Criador
+### Criador:
 
 <center><br>
 
